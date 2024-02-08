@@ -17,6 +17,7 @@
     </style>
 </head>
 <body>
+<h1 style="text-align: center"><a href="/" style="text-decoration: none; color: black;">Simple board</a></h1>
 <div>
     <table>
         <tr>
