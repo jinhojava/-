@@ -11,9 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7194d074-78bc-4384-905f-aa397365e7ea" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/paging.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/paging.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/boardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/boardMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,6 +174,10 @@
       <workItem from="1707269951719" duration="3804000" />
       <workItem from="1707283428518" duration="47000" />
       <workItem from="1707292723825" duration="2707000" />
+      <workItem from="1707352056234" duration="324000" />
+      <workItem from="1707810122714" duration="75000" />
+      <workItem from="1707831353875" duration="612000" />
+      <workItem from="1708071598873" duration="1515000" />
     </task>
     <servers />
   </component>

@@ -2,15 +2,17 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
+<!--sqlSessionTemplete사용할경우는 임의로namespace 지정가능, mapper인터페이스 활용할 경우는
+com.example.mapper.BoardMapper이런식으로 풀경로 적어줘야함-->
 <mapper namespace="Board">
     <insert id="save" parameterType="board">
         insert into board_table(boardWriter, boardPass, boardTitle, boardContents)
         values(#{boardWriter}, #{boardPass}, #{boardTitle}, #{boardContents})
     </insert>
-    <select id="findAll" resultType="board">
+    <select id="findAll" resultType="board"><!--모두찾기기능에선 받는건 없으니 파라미터타입없음, 대신 반환값필요-->
         select * from board_table order by id desc
     </select>
-    <select id="findById" parameterType="Long" resultType="board">
+    <select id="findById" parameterType="Long" resultType="board"><!--게시물의 아이디를 Long 형태의 파라미터로 전달받음-->
         select * from board_table where id=#{id}
     </select>
     <update id="updateHits" parameterType="Long">
