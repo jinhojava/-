@@ -46,11 +46,11 @@ public class BoardService {
 
         /*
         1페이지당 보여주는 글 갯수가 3개라고하면
-        1page => 0
+        1page => 0   <--시작인덱스
         2page => 3
         3page => 6
         * */
-        int pagingStart = (page-1) * pageLimit;
+        int pagingStart = (page-1) * pageLimit;  //페이지당 시작인덱스
         Map<String, Integer> pagingParams = new HashMap<>();
         pagingParams.put("start", pagingStart);
         pagingParams.put("limit", pageLimit);

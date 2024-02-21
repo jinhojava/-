@@ -11,7 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7194d074-78bc-4384-905f-aa397365e7ea" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/boardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/boardMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +176,7 @@
       <workItem from="1707352056234" duration="324000" />
       <workItem from="1707810122714" duration="75000" />
       <workItem from="1707831353875" duration="612000" />
-      <workItem from="1708071598873" duration="1515000" />
+      <workItem from="1708071598873" duration="2353000" />
     </task>
     <servers />
   </component>
